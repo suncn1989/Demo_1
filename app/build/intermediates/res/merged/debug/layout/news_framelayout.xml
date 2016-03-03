@@ -1,0 +1,99 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <js.iptv.view.URLImageButton
+        android:id="@+id/news1"
+        android:layout_width="@dimen/protalFramelayoutDefault"
+        android:layout_height="@dimen/protalFramelayoutDefault"
+        android:layout_marginLeft="@dimen/protalFramelayoutDefault"
+        android:layout_marginTop="@dimen/protalFramelayoutDefault"
+        android:background="@color/transparent"
+        android:nextFocusUp="@id/newsButton"
+        android:scaleType="fitXY" />
+
+    <js.iptv.view.URLImageButton
+        android:id="@+id/news2"
+        android:layout_width="@dimen/protalFramelayoutDefault"
+        android:layout_height="@dimen/protalFramelayoutDefault"
+        android:layout_marginLeft="@dimen/protalFramelayoutDefault"
+        android:layout_marginTop="@dimen/protalFramelayoutDefault"
+        android:background="@color/transparent"
+        android:nextFocusUp="@id/newsButton"
+        android:scaleType="fitXY" />
+    
+    <js.iptv.view.URLImageButton
+        android:id="@+id/news3"
+        android:layout_width="@dimen/protalFramelayoutDefault"
+        android:layout_height="@dimen/protalFramelayoutDefault"
+        android:layout_marginLeft="@dimen/protalFramelayoutDefault"
+        android:layout_marginTop="@dimen/protalFramelayoutDefault"
+        android:background="@color/transparent"
+        android:nextFocusUp="@id/newsButton"
+        android:scaleType="fitXY" />
+    
+    <js.iptv.view.URLImageButton
+        android:id="@+id/news4"
+        android:layout_width="@dimen/protalFramelayoutDefault"
+        android:layout_height="@dimen/protalFramelayoutDefault"
+        android:layout_marginLeft="@dimen/protalFramelayoutDefault"
+        android:layout_marginTop="@dimen/protalFramelayoutDefault"
+        android:background="@color/transparent"
+        android:nextFocusUp="@id/newsButton"
+        android:scaleType="fitXY" />
+    
+    <js.iptv.view.URLImageButton
+        android:id="@+id/news5"
+        android:layout_width="@dimen/protalFramelayoutDefault"
+        android:layout_height="@dimen/protalFramelayoutDefault"
+        android:layout_marginLeft="@dimen/protalFramelayoutDefault"
+        android:layout_marginTop="@dimen/protalFramelayoutDefault"
+        android:background="@color/transparent"
+        android:nextFocusUp="@id/newsButton"
+        android:scaleType="fitXY" />
+    
+    <js.iptv.view.URLImageButton
+        android:id="@+id/news6"
+        android:layout_width="@dimen/protalFramelayoutDefault"
+        android:layout_height="@dimen/protalFramelayoutDefault"
+        android:layout_marginLeft="@dimen/protalFramelayoutDefault"
+        android:layout_marginTop="@dimen/protalFramelayoutDefault"
+        android:background="@color/transparent"
+        android:scaleType="fitXY" />
+    
+    <js.iptv.view.URLImageButton
+        android:id="@+id/news7"
+        android:layout_width="@dimen/protalFramelayoutDefault"
+        android:layout_height="@dimen/protalFramelayoutDefault"
+        android:layout_marginLeft="@dimen/protalFramelayoutDefault"
+        android:layout_marginTop="@dimen/protalFramelayoutDefault"
+        android:background="@color/transparent"
+        android:scaleType="fitXY" />
+    
+    <js.iptv.view.URLImageButton
+        android:id="@+id/news8"
+        android:layout_width="@dimen/protalFramelayoutDefault"
+        android:layout_height="@dimen/protalFramelayoutDefault"
+        android:layout_marginLeft="@dimen/protalFramelayoutDefault"
+        android:layout_marginTop="@dimen/protalFramelayoutDefault"
+        android:background="@color/transparent"
+        android:scaleType="fitXY" />
+    
+    <js.iptv.view.URLImageButton
+        android:id="@+id/news9"
+        android:layout_width="@dimen/protalFramelayoutDefault"
+        android:layout_height="@dimen/protalFramelayoutDefault"
+        android:layout_marginLeft="@dimen/protalFramelayoutDefault"
+        android:layout_marginTop="@dimen/protalFramelayoutDefault"
+        android:background="@color/transparent"
+        android:scaleType="fitXY" />
+    
+    <js.iptv.view.URLImageButton
+        android:id="@+id/news10"
+        android:layout_width="@dimen/protalFramelayoutDefault"
+        android:layout_height="@dimen/protalFramelayoutDefault"
+        android:layout_marginLeft="@dimen/protalFramelayoutDefault"
+        android:layout_marginTop="@dimen/protalFramelayoutDefault"
+        android:background="@color/transparent"
+        android:scaleType="fitXY" />
+    
+
+</FrameLayout>

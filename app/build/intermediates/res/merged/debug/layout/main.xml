@@ -1,0 +1,173 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/bg_portal"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/portalemptyplace"
+        android:layout_width="wrap_content"
+        android:layout_height="70dp"
+        android:text="" />
+
+    <LinearLayout
+        android:id="@+id/portalbar"
+        android:layout_width="@dimen/portalBarWidth"
+        android:layout_height="@dimen/portalBarHeight"
+        android:layout_marginLeft="@dimen/portalbaremptysplace"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:textAlignment="center" >
+
+        <Button
+            android:id="@+id/homeButton"
+            android:layout_width="@dimen/portalBarItemWidth"
+            android:layout_height="wrap_content"
+            android:background="@color/portalBarBg"
+            android:contentDescription="@string/empty"
+            android:fontFamily="@string/portalBarFontFamily"
+            android:gravity="center_horizontal"
+            android:text="@string/home"
+            android:textColor="@color/portalBarOnBlur"
+            android:textSize="@dimen/portalBarOnBlurTextSize" />
+
+        <Button
+            android:id="@+id/hotButton"
+            android:layout_width="@dimen/portalBarItemWidth"
+            android:layout_height="wrap_content"
+            android:background="@color/portalBarBg"
+            android:contentDescription="@string/empty"
+            android:fontFamily="@string/portalBarFontFamily"
+            android:gravity="center_horizontal"
+            android:text="@string/hot"
+            android:textColor="@color/portalBarOnBlur"
+            android:textSize="@dimen/portalBarOnBlurTextSize" />
+
+        <Button
+            android:id="@+id/categoryButton"
+            android:layout_width="@dimen/portalBarItemWidth"
+            android:layout_height="wrap_content"
+            android:background="@color/portalBarBg"
+            android:contentDescription="@string/empty"
+            android:fontFamily="@string/portalBarFontFamily"
+            android:gravity="center_horizontal"
+            android:text="@string/category"
+            android:textColor="@color/portalBarOnBlur"
+            android:textSize="@dimen/portalBarOnBlurTextSize" />
+
+        <Button
+            android:id="@+id/channelButton"
+            android:layout_width="@dimen/portalBarItemWidth"
+            android:layout_height="wrap_content"
+            android:background="@color/portalBarBg"
+            android:contentDescription="@string/empty"
+            android:fontFamily="@string/portalBarFontFamily"
+            android:gravity="center_horizontal"
+            android:text="@string/channel"
+            android:textColor="@color/portalBarOnBlur"
+            android:textSize="@dimen/portalBarOnBlurTextSize" />
+
+        <Button
+            android:id="@+id/lbChannelButton"
+            android:layout_width="@dimen/portalBarItemWidth"
+            android:layout_height="wrap_content"
+            android:background="@color/portalBarBg"
+            android:contentDescription="@string/empty"
+            android:fontFamily="@string/portalBarFontFamily"
+            android:gravity="center_horizontal"
+            android:text="@string/lb_channel"
+            android:textColor="@color/portalBarOnBlur"
+            android:textSize="@dimen/portalBarOnBlurTextSize" />
+
+        <Button
+            android:id="@+id/newsButton"
+            android:layout_width="@dimen/portalBarItemWidth"
+            android:layout_height="wrap_content"
+            android:background="@color/portalBarBg"
+            android:contentDescription="@string/empty"
+            android:fontFamily="@string/portalBarFontFamily"
+            android:gravity="center_horizontal"
+            android:text="@string/news"
+            android:textColor="@color/portalBarOnBlur"
+            android:textSize="@dimen/portalBarOnBlurTextSize" />
+
+        <Button
+            android:id="@+id/appButton"
+            android:layout_width="@dimen/portalBarItemWidth"
+            android:layout_height="wrap_content"
+            android:background="@color/portalBarBg"
+            android:contentDescription="@string/empty"
+            android:fontFamily="@string/portalBarFontFamily"
+            android:gravity="center_horizontal"
+            android:text="@string/app_market"
+            android:textColor="@color/portalBarOnBlur"
+            android:textSize="@dimen/portalBarOnBlurTextSize" />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/portalBarGg"
+        android:layout_width="@dimen/portalBarGgWidth"
+        android:layout_height="@dimen/portalBarGgHeight"
+        android:scaleType="fitXY"
+        android:src="@drawable/portal_bar_gg" />
+
+    <js.iptv.view.RootHorizontalScrollView
+        android:id="@+id/horizontalScrollView"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/portalScrollViewHeight"
+        android:fillViewport="true" >
+
+        <LinearLayout
+            android:id="@+id/horizontalScrollViewInner"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal" >
+
+            <js.iptv.layout.PortalFrameLayout
+                android:id="@+id/portalFrameLayout"
+                android:layout_width="@dimen/protalFramelayoutWidth"
+                android:layout_height="@dimen/portalScrollViewHeight"
+                android:layout_marginLeft="@dimen/protalFramelayoutViewMarginLeft" >
+            </js.iptv.layout.PortalFrameLayout>
+
+            <js.iptv.layout.RecommandFrameLayout
+                android:id="@+id/recommandFramelayout"
+                android:layout_width="@dimen/recommandFramelayoutWidth"
+                android:layout_height="@dimen/portalScrollViewHeight" >
+            </js.iptv.layout.RecommandFrameLayout>
+
+            <js.iptv.layout.VodFrameLayout
+                android:id="@+id/vodFramelayout"
+                android:layout_width="@dimen/vodFramelayoutWidth"
+                android:layout_height="@dimen/portalScrollViewHeight" >
+            </js.iptv.layout.VodFrameLayout>
+
+            <js.iptv.layout.ChannelFrameLayout
+                android:id="@+id/channelFramelayout"
+                android:layout_width="@dimen/channelFramelayoutWidth"
+                android:layout_height="@dimen/portalScrollViewHeight" >
+            </js.iptv.layout.ChannelFrameLayout>
+            
+            <js.iptv.layout.LbChannelFrameLayout
+                android:id="@+id/lbChannelFramelayout"
+                android:layout_width="@dimen/lbChannelFramelayoutWidth"
+                android:layout_height="@dimen/portalScrollViewHeight" >
+            </js.iptv.layout.LbChannelFrameLayout>
+            
+            <js.iptv.layout.NewsFrameLayout
+                android:id="@+id/newsFramelayout"
+                android:layout_width="@dimen/newsFramelayoutWidth"
+                android:layout_height="@dimen/portalScrollViewHeight" >
+            </js.iptv.layout.NewsFrameLayout>
+
+            <js.iptv.layout.AppMarketFrameLayout
+                android:id="@+id/appMarketFramelayout"
+                android:layout_width="@dimen/appFramelayoutWidth"
+                android:layout_height="@dimen/portalScrollViewHeight"
+                android:layout_marginRight="@dimen/appFramelayoutMarginRight" >
+            </js.iptv.layout.AppMarketFrameLayout>
+
+        </LinearLayout>
+    </js.iptv.view.RootHorizontalScrollView>
+
+</LinearLayout>

@@ -1,0 +1,69 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+>
+
+    <js.iptv.view.URLImageButton
+        android:id="@+id/channel_player"
+        android:layout_width="@dimen/channelFramelayoutChannelPlayerWidth"
+        android:layout_height="@dimen/channelFramelayoutChannelPlayerHeight"
+        android:layout_marginLeft="@dimen/channelFramelayoutChannelPlayerMarginLeft"
+        android:layout_marginTop="@dimen/channelFramelayoutChannelPlayerMarginTop"
+        android:background="@drawable/channel_player"
+        android:scaleType="fitXY" />
+    <js.iptv.view.URLImageButton
+        android:id="@+id/channel1"
+        android:layout_width="@dimen/channelFramelayoutChannel1Width"
+        android:layout_height="@dimen/channelFramelayoutChannel1Height"
+        android:layout_marginLeft="@dimen/channelFramelayoutChannel1MarginLeft"
+        android:layout_marginTop="@dimen/channelFramelayoutChannel1MarginTop"
+        android:background="@drawable/channel_1"
+        android:scaleType="fitXY" />
+    <js.iptv.view.URLImageButton
+        android:id="@+id/channel_more"
+        android:layout_width="@dimen/channelFramelayoutChannelMoreWidth"
+        android:layout_height="@dimen/channelFramelayoutChannelMoreHeight"
+        android:layout_marginLeft="@dimen/channelFramelayoutChannelMoreMarginLeft"
+        android:layout_marginTop="@dimen/channelFramelayoutChannelMoreMarginTop"
+        android:background="@drawable/channel_more"
+        android:scaleType="fitXY" />
+    <js.iptv.view.URLImageButton
+        android:id="@+id/channel2"
+        android:layout_width="@dimen/channelFramelayoutChannel2Width"
+        android:layout_height="@dimen/channelFramelayoutChannel2Height"
+        android:layout_marginLeft="@dimen/channelFramelayoutChannel2MarginLeft"
+        android:layout_marginTop="@dimen/channelFramelayoutChannel2MarginTop"
+        android:background="@drawable/channel_2"
+        android:scaleType="fitXY" />
+    <js.iptv.view.URLImageButton
+        android:id="@+id/channel3"
+        android:layout_width="@dimen/channelFramelayoutChannel3Width"
+        android:layout_height="@dimen/channelFramelayoutChannel3Height"
+        android:layout_marginLeft="@dimen/channelFramelayoutChannel3MarginLeft"
+        android:layout_marginTop="@dimen/channelFramelayoutChannel3MarginTop"
+        android:background="@drawable/channel_3"
+        android:scaleType="fitXY" />
+    <js.iptv.view.URLImageButton
+        android:id="@+id/channel4"
+        android:layout_width="@dimen/channelFramelayoutChannel4Width"
+        android:layout_height="@dimen/channelFramelayoutChannel4Height"
+        android:layout_marginLeft="@dimen/channelFramelayoutChannel4MarginLeft"
+        android:layout_marginTop="@dimen/channelFramelayoutChannel4MarginTop"
+        android:background="@drawable/channel_4"
+        android:scaleType="fitXY" />
+    <js.iptv.view.URLImageButton
+        android:id="@+id/channel5"
+        android:layout_width="@dimen/channelFramelayoutChannel5Width"
+        android:layout_height="@dimen/channelFramelayoutChannel5Height"
+        android:layout_marginLeft="@dimen/channelFramelayoutChannel5MarginLeft"
+        android:layout_marginTop="@dimen/channelFramelayoutChannel5MarginTop"
+        android:background="@drawable/channel_5"
+        android:scaleType="fitXY" />
+    <js.iptv.view.URLImageButton
+        android:id="@+id/channel6"
+        android:layout_width="@dimen/channelFramelayoutChannel6Width"
+        android:layout_height="@dimen/channelFramelayoutChannel6Height"
+        android:layout_marginLeft="@dimen/channelFramelayoutChannel6MarginLeft"
+        android:layout_marginTop="@dimen/channelFramelayoutChannel6MarginTop"
+        android:background="@drawable/channel_6"
+        android:scaleType="fitXY" />
+
+</FrameLayout>

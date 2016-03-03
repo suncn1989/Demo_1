@@ -1,0 +1,38 @@
+[
+    {
+        "merged": "F:\\2016\\IPTVJS1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\news_framelayout.xml",
+        "source": "F:\\2016\\IPTVJS1\\app\\src\\main\\res\\layout\\news_framelayout.xml"
+    },
+    {
+        "merged": "F:\\2016\\IPTVJS1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\portal_framelayout.xml",
+        "source": "F:\\2016\\IPTVJS1\\app\\src\\main\\res\\layout\\portal_framelayout.xml"
+    },
+    {
+        "merged": "F:\\2016\\IPTVJS1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\vod_framelayout.xml",
+        "source": "F:\\2016\\IPTVJS1\\app\\src\\main\\res\\layout\\vod_framelayout.xml"
+    },
+    {
+        "merged": "F:\\2016\\IPTVJS1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\channel_framelayout.xml",
+        "source": "F:\\2016\\IPTVJS1\\app\\src\\main\\res\\layout\\channel_framelayout.xml"
+    },
+    {
+        "merged": "F:\\2016\\IPTVJS1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\welcome.xml",
+        "source": "F:\\2016\\IPTVJS1\\app\\src\\main\\res\\layout\\welcome.xml"
+    },
+    {
+        "merged": "F:\\2016\\IPTVJS1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\app_framelayout.xml",
+        "source": "F:\\2016\\IPTVJS1\\app\\src\\main\\res\\layout\\app_framelayout.xml"
+    },
+    {
+        "merged": "F:\\2016\\IPTVJS1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\recommand_framelayout.xml",
+        "source": "F:\\2016\\IPTVJS1\\app\\src\\main\\res\\layout\\recommand_framelayout.xml"
+    },
+    {
+        "merged": "F:\\2016\\IPTVJS1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\main.xml",
+        "source": "F:\\2016\\IPTVJS1\\app\\src\\main\\res\\layout\\main.xml"
+    },
+    {
+        "merged": "F:\\2016\\IPTVJS1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\lbchannel_framelayout.xml",
+        "source": "F:\\2016\\IPTVJS1\\app\\src\\main\\res\\layout\\lbchannel_framelayout.xml"
+    }
+]

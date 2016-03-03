@@ -1,0 +1,22 @@
+[
+    {
+        "merged": "F:\\2016\\IPTVJS1\\app\\build\\intermediates\\res\\merged\\debug\\anim\\scale_on_focus.xml",
+        "source": "F:\\2016\\IPTVJS1\\app\\src\\main\\res\\anim\\scale_on_focus.xml"
+    },
+    {
+        "merged": "F:\\2016\\IPTVJS1\\app\\build\\intermediates\\res\\merged\\debug\\anim\\image_onfocus2h.xml",
+        "source": "F:\\2016\\IPTVJS1\\app\\src\\main\\res\\anim\\image_onfocus2h.xml"
+    },
+    {
+        "merged": "F:\\2016\\IPTVJS1\\app\\build\\intermediates\\res\\merged\\debug\\anim\\welcome_alpha.xml",
+        "source": "F:\\2016\\IPTVJS1\\app\\src\\main\\res\\anim\\welcome_alpha.xml"
+    },
+    {
+        "merged": "F:\\2016\\IPTVJS1\\app\\build\\intermediates\\res\\merged\\debug\\anim\\portalbar.xml",
+        "source": "F:\\2016\\IPTVJS1\\app\\src\\main\\res\\anim\\portalbar.xml"
+    },
+    {
+        "merged": "F:\\2016\\IPTVJS1\\app\\build\\intermediates\\res\\merged\\debug\\anim\\image_onfocus2l.xml",
+        "source": "F:\\2016\\IPTVJS1\\app\\src\\main\\res\\anim\\image_onfocus2l.xml"
+    }
+]

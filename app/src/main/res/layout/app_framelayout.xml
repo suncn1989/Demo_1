@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <js.iptv.view.URLImageButton
+        android:id="@+id/app1"
+        android:layout_width="@dimen/protalFramelayoutDefault"
+        android:layout_height="@dimen/protalFramelayoutDefault"
+        android:layout_marginLeft="@dimen/protalFramelayoutDefault"
+        android:layout_marginTop="@dimen/protalFramelayoutDefault"
+        android:background="@color/transparent"
+        android:scaleType="fitXY" />
+
+    <js.iptv.view.URLImageButton
+        android:id="@+id/app2"
+        android:layout_width="@dimen/protalFramelayoutDefault"
+        android:layout_height="@dimen/protalFramelayoutDefault"
+        android:layout_marginLeft="@dimen/protalFramelayoutDefault"
+        android:layout_marginTop="@dimen/protalFramelayoutDefault"
+        android:background="@color/transparent"
+        android:scaleType="fitXY" />
+    
+    <js.iptv.view.URLImageButton
+        android:id="@+id/app3"
+        android:layout_width="@dimen/protalFramelayoutDefault"
+        android:layout_height="@dimen/protalFramelayoutDefault"
+        android:layout_marginLeft="@dimen/protalFramelayoutDefault"
+        android:layout_marginTop="@dimen/protalFramelayoutDefault"
+        android:background="@color/transparent"
+        android:scaleType="fitXY" />
+    
+    <js.iptv.view.URLImageButton
+        android:id="@+id/app4"
+        android:layout_width="@dimen/protalFramelayoutDefault"
+        android:layout_height="@dimen/protalFramelayoutDefault"
+        android:layout_marginLeft="@dimen/protalFramelayoutDefault"
+        android:layout_marginTop="@dimen/protalFramelayoutDefault"
+        android:background="@color/transparent"
+        android:scaleType="fitXY" />
+    
+    <js.iptv.view.URLImageButton
+        android:id="@+id/app5"
+        android:layout_width="@dimen/protalFramelayoutDefault"
+        android:layout_height="@dimen/protalFramelayoutDefault"
+        android:layout_marginLeft="@dimen/protalFramelayoutDefault"
+        android:layout_marginTop="@dimen/protalFramelayoutDefault"
+        android:background="@color/transparent"
+        android:scaleType="fitXY" />
+    
+    <js.iptv.view.URLImageButton
+        android:id="@+id/app6"
+        android:layout_width="@dimen/protalFramelayoutDefault"
+        android:layout_height="@dimen/protalFramelayoutDefault"
+        android:layout_marginLeft="@dimen/protalFramelayoutDefault"
+        android:layout_marginTop="@dimen/protalFramelayoutDefault"
+        android:background="@color/transparent"
+        android:scaleType="fitXY" />
+    
+    <js.iptv.view.URLImageButton
+        android:id="@+id/app7"
+        android:layout_width="@dimen/protalFramelayoutDefault"
+        android:layout_height="@dimen/protalFramelayoutDefault"
+        android:layout_marginLeft="@dimen/protalFramelayoutDefault"
+        android:layout_marginTop="@dimen/protalFramelayoutDefault"
+        android:background="@color/transparent"
+        android:scaleType="fitXY" />
+    
+    <js.iptv.view.URLImageButton
+        android:id="@+id/app8"
+        android:layout_width="@dimen/protalFramelayoutDefault"
+        android:layout_height="@dimen/protalFramelayoutDefault"
+        android:layout_marginLeft="@dimen/protalFramelayoutDefault"
+        android:layout_marginTop="@dimen/protalFramelayoutDefault"
+        android:background="@color/transparent"
+        android:scaleType="fitXY" />
+    
+    <js.iptv.view.URLImageButton
+        android:id="@+id/app9"
+        android:layout_width="@dimen/protalFramelayoutDefault"
+        android:layout_height="@dimen/protalFramelayoutDefault"
+        android:layout_marginLeft="@dimen/protalFramelayoutDefault"
+        android:layout_marginTop="@dimen/protalFramelayoutDefault"
+        android:background="@color/transparent"
+        android:scaleType="fitXY" />
+    
+    <js.iptv.view.URLImageButton
+        android:id="@+id/app10"
+        android:layout_width="@dimen/protalFramelayoutDefault"
+        android:layout_height="@dimen/protalFramelayoutDefault"
+        android:layout_marginLeft="@dimen/protalFramelayoutDefault"
+        android:layout_marginTop="@dimen/protalFramelayoutDefault"
+        android:background="@color/transparent"
+        android:scaleType="fitXY" />
+    
+</FrameLayout>

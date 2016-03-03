@@ -1,0 +1,66 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+     >
+
+    <js.iptv.view.URLImageButton
+        android:id="@+id/vod_hot1"
+        android:layout_width="@dimen/vodFramelayoutHot1Width"
+        android:layout_height="@dimen/vodFramelayoutHot1Height"
+        android:layout_marginLeft="@dimen/vodFramelayoutHot1MarginLeft"
+        android:layout_marginTop="@dimen/vodFramelayoutHot1MarginTop"
+        android:background="@drawable/hot1"
+        android:nextFocusUp="@id/categoryButton"
+        android:scaleType="fitXY" />
+    <js.iptv.view.URLImageButton
+        android:id="@+id/vod_hot2"
+        android:layout_width="@dimen/vodFramelayoutHot2Width"
+        android:layout_height="@dimen/vodFramelayoutHot2Height"
+        android:layout_marginLeft="@dimen/vodFramelayoutHot2MarginLeft"
+        android:layout_marginTop="@dimen/vodFramelayoutHot2MarginTop"
+        android:background="@drawable/hot4"
+        android:nextFocusUp="@id/categoryButton"
+        android:scaleType="fitXY" />
+    <js.iptv.view.URLImageButton
+        android:id="@+id/vod_hot3"
+        android:layout_width="@dimen/vodFramelayoutHot3Width"
+        android:layout_height="@dimen/vodFramelayoutHot3Height"
+        android:layout_marginLeft="@dimen/vodFramelayoutHot3MarginLeft"
+        android:layout_marginTop="@dimen/vodFramelayoutHot3MarginTop"
+        android:background="@drawable/hot2"
+        android:nextFocusUp="@id/categoryButton"
+        android:scaleType="fitXY" />
+    <js.iptv.view.URLImageButton
+        android:id="@+id/vod_hot4"
+        android:layout_width="@dimen/vodFramelayoutHot4Width"
+        android:layout_height="@dimen/vodFramelayoutHot4Height"
+        android:layout_marginLeft="@dimen/vodFramelayoutHot4MarginLeft"
+        android:layout_marginTop="@dimen/vodFramelayoutHot4MarginTop"
+        android:background="@drawable/hot3"
+        android:nextFocusUp="@id/categoryButton"
+        android:scaleType="fitXY" />
+    <js.iptv.view.URLImageButton
+        android:id="@+id/vod_hot5"
+        android:layout_width="@dimen/vodFramelayoutHot5Width"
+        android:layout_height="@dimen/vodFramelayoutHot5Height"
+        android:layout_marginLeft="@dimen/vodFramelayoutHot5MarginLeft"
+        android:layout_marginTop="@dimen/vodFramelayoutHot5MarginTop"
+        android:background="@drawable/hot6"
+        android:scaleType="fitXY" />
+    <js.iptv.view.URLImageButton
+        android:id="@+id/vod_hot6"
+        android:layout_width="@dimen/vodFramelayoutHot6Width"
+        android:layout_height="@dimen/vodFramelayoutHot6Height"
+        android:layout_marginLeft="@dimen/vodFramelayoutHot6MarginLeft"
+        android:layout_marginTop="@dimen/vodFramelayoutHot6MarginTop"
+        android:background="@drawable/hot7"
+        android:scaleType="fitXY" />
+    <js.iptv.view.URLImageButton
+        android:id="@+id/vod_hot7"
+        android:layout_width="@dimen/vodFramelayoutHot7Width"
+        android:layout_height="@dimen/vodFramelayoutHot7Height"
+        android:layout_marginLeft="@dimen/vodFramelayoutHot7MarginLeft"
+        android:layout_marginTop="@dimen/vodFramelayoutHot7MarginTop"
+        android:background="@drawable/hot5"
+        android:scaleType="fitXY" />
+
+</FrameLayout>

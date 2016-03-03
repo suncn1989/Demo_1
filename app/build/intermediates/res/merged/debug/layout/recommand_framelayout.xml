@@ -1,0 +1,66 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    
+    >
+
+    <js.iptv.view.URLImageButton
+        android:id="@+id/hot1"
+        android:layout_width="@dimen/recommandFramelayoutHot1Width"
+        android:layout_height="@dimen/recommandFramelayoutHot1Height"
+        android:layout_marginLeft="@dimen/recommandFramelayoutHot1MarginLeft"
+        android:layout_marginTop="@dimen/recommandFramelayoutHot1MarginTop"
+        android:background="@drawable/hot1"
+        android:nextFocusUp="@id/hotButton"
+        android:scaleType="fitXY" />
+    <js.iptv.view.URLImageButton
+        android:id="@+id/hot2"
+        android:layout_width="@dimen/recommandFramelayoutHot2Width"
+        android:layout_height="@dimen/recommandFramelayoutHot2Height"
+        android:layout_marginLeft="@dimen/recommandFramelayoutHot2MarginLeft"
+        android:layout_marginTop="@dimen/recommandFramelayoutHot2MarginTop"
+        android:background="@drawable/hot2"
+        android:nextFocusUp="@id/hotButton"
+        android:scaleType="fitXY" />
+    <js.iptv.view.URLImageButton
+        android:id="@+id/hot3"
+        android:layout_width="@dimen/recommandFramelayoutHot3Width"
+        android:layout_height="@dimen/recommandFramelayoutHot3Height"
+        android:layout_marginLeft="@dimen/recommandFramelayoutHot3MarginLeft"
+        android:layout_marginTop="@dimen/recommandFramelayoutHot3MarginTop"
+        android:background="@drawable/hot3"
+        android:nextFocusUp="@id/hotButton"
+        android:scaleType="fitXY" />
+    <js.iptv.view.URLImageButton
+        android:id="@+id/hot4"
+        android:layout_width="@dimen/recommandFramelayoutHot4Width"
+        android:layout_height="@dimen/recommandFramelayoutHot4Height"
+        android:layout_marginLeft="@dimen/recommandFramelayoutHot4MarginLeft"
+        android:layout_marginTop="@dimen/recommandFramelayoutHot4MarginTop"
+        android:background="@drawable/hot4"
+        android:nextFocusUp="@id/hotButton"
+        android:scaleType="fitXY" />
+    <js.iptv.view.URLImageButton
+        android:id="@+id/hot5"
+        android:layout_width="@dimen/recommandFramelayoutHot5Width"
+        android:layout_height="@dimen/recommandFramelayoutHot5Height"
+        android:layout_marginLeft="@dimen/recommandFramelayoutHot5MarginLeft"
+        android:layout_marginTop="@dimen/recommandFramelayoutHot5MarginTop"
+        android:background="@drawable/hot5"
+        android:scaleType="fitXY" />
+    <js.iptv.view.URLImageButton
+        android:id="@+id/hot6"
+        android:layout_width="@dimen/recommandFramelayoutHot6Width"
+        android:layout_height="@dimen/recommandFramelayoutHot6Height"
+        android:layout_marginLeft="@dimen/recommandFramelayoutHot6MarginLeft"
+        android:layout_marginTop="@dimen/recommandFramelayoutHot6MarginTop"
+        android:background="@drawable/hot6"
+        android:scaleType="fitXY" />
+    <js.iptv.view.URLImageButton
+        android:id="@+id/hot7"
+        android:layout_width="@dimen/recommandFramelayoutHot7Width"
+        android:layout_height="@dimen/recommandFramelayoutHot7Height"
+        android:layout_marginLeft="@dimen/recommandFramelayoutHot7MarginLeft"
+        android:layout_marginTop="@dimen/recommandFramelayoutHot7MarginTop"
+        android:background="@drawable/hot7"
+        android:scaleType="fitXY" />
+
+</FrameLayout>
